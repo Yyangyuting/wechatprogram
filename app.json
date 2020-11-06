@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/users/users",
-    "pages/money/money"
+    "pages/money/money",
+    "pages/funds/funds"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,6 +19,13 @@
      "iconPath": "/images/user.png",
      "selectedIconPath": "/images/user-active.png"
    },
+   {
+     "pagePath": "pages/funds/funds",
+     "text": "基金工会",
+     "iconPath": "/images/jijin.png",
+     "selectedIconPath": "/images/jijin-active.png"
+   },
+
   {
     "pagePath": "pages/money/money",
     "text": "财务中心",
