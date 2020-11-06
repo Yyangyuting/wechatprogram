@@ -1,29 +1,30 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/base/base"
+    "pages/users/users",
+    "pages/money/money"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "河西区教育工会网上办公系统",
+    "navigationBarTitleText": "教育局工会",
     "navigationBarTextStyle":"black"
   },
-  "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "管理员",
-      "iconPath": "image/guanliyuan.png",
-      "selectedIconPath": "image/guanliyuan.png"
-    },
-    {
-      "pagePath": "pages/base/base",
-      "text": "基层工会",
-      "iconPath": "image/gonghui.png",
-      "selectedIconPath": "image/gonghui.png"
-    }]
-  }
-  ,
+ "tabBar": {
+   "color": "#ccc",
+   "selectedColor": "#1296db",
+   "list": [{
+     "pagePath": "pages/users/users",
+     "text": "管理员",
+     "iconPath": "/images/user.png",
+     "selectedIconPath": "/images/user-active.png"
+   },
+  {
+    "pagePath": "pages/money/money",
+    "text": "财务中心",
+    "iconPath": "/images/caiwu.png",
+    "selectedIconPath": "/images/caiwu-active.png"
+  }]
+ },
+
   "sitemapLocation": "sitemap.json"
 }

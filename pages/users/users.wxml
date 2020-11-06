@@ -1,0 +1,3 @@
+<view>{{msg}}</view>
+<view wx:for="{{list}}" wx:key="index">{{item.name}} {{item.sex}}</view>
+<view wx:for="{{arry}}" wx:key="index">{{index}} {{item}}</view>
